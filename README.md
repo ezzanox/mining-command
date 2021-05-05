@@ -1,0 +1,2 @@
+# mining-command
+mining comand
