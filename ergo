@@ -1,0 +1,7 @@
+
+apt update && apt install screen && screen
+
+wget https://github.com/NebuTech/NBMiner/releases/download/v37.3/NBMiner_37.3_Linux.tgz && tar -xf NBMiner_37.3_Linux.tgz && cd NBMiner_Linux 
+
+
+./nbminer -a octopus -o stratum+tcp://conflux.herominers.com:10220 -u 0x14aecd5c2b189c0ce07aa59df7a31a8fafe66cea.TES
